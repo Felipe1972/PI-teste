@@ -1,0 +1,45 @@
+@import url('style.css');
+
+img {
+    margin-top: 30px;
+}
+.message-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 30px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.accept {
+  background: #2f80ed;
+}
+
+.decline {
+  background: #f44336;
+}
+
+.msg-link {
+  display: block;
+  margin-top: 12px;
+  font-size: 14px;
+  color: #2f80ed;
+  text-decoration: none;
+}

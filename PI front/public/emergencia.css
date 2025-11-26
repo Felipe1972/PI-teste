@@ -1,0 +1,16 @@
+@import url('style.css');
+
+.alert-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  margin: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.alert-box i {
+  font-size: 50px;
+  color: #f44336;
+  margin-bottom: 10px;
+}

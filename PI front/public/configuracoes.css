@@ -1,0 +1,155 @@
+/* @import url('style.css');
+
+
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.form-box {
+  background: #fff;
+  padding: 20px 18px;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+
+.form-box h2 {
+  margin: 0 0 15px;
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+}
+
+
+.form-box input {
+  width: 100%;
+  padding: 13px 14px;
+  margin: 8px 0 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.form-box input:focus {
+  outline: none;
+  border-color: #2f80ed;
+  box-shadow: 0 0 4px rgba(47, 128, 237, 0.4);
+}
+
+
+.form-box button {
+  width: 100%;
+  background: #2f80ed;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.form-box button:hover {
+  background: #1e66d1;
+}
+
+
+.divider {
+  text-align: center;
+  color: #aaa;
+  font-size: 14px;
+  margin: 10px 0;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('style.css');
+
+.settings-list {
+  list-style: none;
+  padding: 20px;
+}
+
+.settings-list li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 14px 16px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.settings-list li:hover {
+  background: #e8f1ff;
+}
+
+.settings-list i {
+  color: #2f80ed;
+  margin-right: 10px;
+}
+
+.settings-list span {
+  color: #aaa;
+}
+
+.fa-right-from-bracket {
+  color: #f44336;
+}

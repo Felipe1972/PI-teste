@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background: #f9f9f9;
+  }
+  
+  /* HEADER */
+  .topbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2f80ed;
+    color: #fff;
+    padding: 15px 20px;
+    position: relative;
+  }
+  
+  .topbar h1 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .topbar h1 span {
+    font-weight: 300;
+  }
+  
+  .topbar i {
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+  }
+  
+  /* CONTEÚDO */
+  .container {
+    padding: 20px;
+  }
+  
+  .map {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* NAVBAR INFERIOR */
+  .bottombar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+    color: #2f80ed;
+  }
+  
+  .bottombar a {
+    color: #2f80ed;
+    text-decoration: none;
+  }
+  
+  @media (min-width: 600px) {
+    body {
+      max-width: 400px;
+      margin: auto;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+  }
+  /* Aumentar o tamanho do header em todas as páginas */
+.topbar {
+    padding: 25px 20px;      /* aumenta a altura do header */
+  }
+  
+  .topbar h1 {
+    font-size: 28px;         /* aumenta o tamanho do texto "HELP US" ou títulos */
+    letter-spacing: 1px;     /* espaçamento entre letras, opcional */
+  }
+  

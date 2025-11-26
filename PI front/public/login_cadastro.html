@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Cadastro</title>
+    <link rel="stylesheet" href="login_cadastro.css">
+</head>
+<body>
+
+<header class="topbar">
+    <h1>Login / Cadastro</h1>
+</header>
+
+<div class="container">
+
+    <form action="login.php" method="POST" class="box">
+        <h2>Entrar</h2>
+
+        <input type="email" name="email" placeholder="Seu e-mail" required>
+        <input type="password" name="senha" placeholder="Sua senha" required>
+
+        <button type="submit">Login</button>
+    </form>
+
+    <form action="register.php" method="POST" class="box">
+        <h2>Criar Conta</h2>
+
+        <input type="text" name="nome" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu e-mail" required>
+        <input type="password" name="senha" placeholder="Crie uma senha" required>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+</div>
+
+</body>
+</html>
